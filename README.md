@@ -1,10 +1,10 @@
 # windows11-wsl2-docker-etc
 Hints and tips for working with WSL2 etc
 
-I'm a longtime UNIX/BSD/Linux/Ubuntu user, but like a lot of folks I use a Windows laptop for work, or sometimes a Mac.  The current incarnation of WSL2, especially as it now include X-Windows is pretty good for folks like me who know the usual Unix tools, but haven't got useful skills with Powershell, Registry, and other Windows voodoo.
+I'm a longtime UNIX/BSD/Linux/Ubuntu user, but like a lot of folks I use a Windows laptop for work, or sometimes a Mac.  The current incarnation of WSL2, especially as it now include X-Windows, is pretty good for folks like me who know the usual Unix tools, but haven't got useful skills with Powershell, Registry, and other Windows voodoo.
 
 ## WSL2
-Network access from wsl, particularly mDNS, didn't work well for me with the defaults.  Here's what I have in my C:\Users\mike\.wslconfig
+Network access from wsl, particularly mDNS, didn't work well for me with the defaults.  Here's what I have in my C:\Users\mike\\.wslconfig
 
 ```
 [wsl2]
